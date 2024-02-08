@@ -847,8 +847,12 @@ database:
     affinity: {}
     ## The priority class to run the pod as
     priorityClassName:
-    # The initial superuser password for internal database
+    # The initial superuser password for internal database (ignored if existingSecret is set)
     password: "changeit"
+    # Use an existing secret resource
+    existingSecret: ""
+    # Key within the existing secret for the registry service secret
+    existingSecretKey: POSTGRES_PASSWORD
     # The size limit for Shared memory, pgSQL use it for shared_buffer
     # More details see:
     # https://github.com/goharbor/harbor/issues/15034
