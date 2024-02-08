@@ -3,7 +3,7 @@ entries:
   harbor:
   - apiVersion: v1
     appVersion: dev
-    created: "2024-02-08T12:30:56.211507-06:00"
+    created: "2024-02-08T13:02:01.964953-06:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: 4e19d2cbef63e8562c20dcc49b7f0fc37e518a91a4481f8287e9781b60f47241
@@ -25,6 +25,6 @@ entries:
     - https://github.com/goharbor/harbor
     - https://github.com/goharbor/harbor-helm
     urls:
-    - harbor-1.4.1-dev.tgz
+    - https://cten.github.com/harbor-helm/harbor-1.4.1-dev.tgz
     version: 1.4.1-dev
-generated: "2024-02-08T12:30:56.200831-06:00"
+generated: "2024-02-08T13:02:01.961618-06:00"
