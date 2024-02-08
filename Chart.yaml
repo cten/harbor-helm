@@ -11,7 +11,7 @@ home: https://goharbor.io
 icon: https://raw.githubusercontent.com/goharbor/website/main/static/img/logos/harbor-icon-color.png
 sources:
 - https://github.com/goharbor/harbor
-- https://github.com/goharbor/harbor-helm
+- https://github.com/cten/harbor-helm
 maintainers:
 - name: Wenkai Yin
   email: yinw@vmware.com
